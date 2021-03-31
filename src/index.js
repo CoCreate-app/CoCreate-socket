@@ -1,3 +1,4 @@
+import {getCommonParams, getCommonParamsExtend, generateSocketClient} from '@cocreate/socket/src/common-fun.js';
 class CoCreateSocket
 {
 	constructor(prefix = "crud") {
